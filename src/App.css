@@ -47,8 +47,8 @@
   left: 70%;
 }
 .card-Number h2{
-  font-size: 40px;
-  word-spacing: 10px;
+  font-size: 35px;
+  /* word-spacing: 10px; */
   color: hsl(0, 0%, 100%);
 }
 .right {
