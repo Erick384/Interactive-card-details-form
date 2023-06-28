@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
@@ -8,10 +6,9 @@ function App() {
 
   return (
     <div className="body">
-      {/* <div className="container"> */}
       <div className="left">
         <div className="jane-Card">
-          <div className="circles">
+          <div className="logo">
             <svg
               width="84"
               height="47"
@@ -39,6 +36,7 @@ function App() {
             <span>00/00</span>
           </div>
         </div>
+        <div className="back-Page"></div>
       </div>
       <div className="right">
         <div className="form">
@@ -80,7 +78,6 @@ function App() {
           . Coded by <a href="https://github.com/Erick384">Erick-384😎</a>.
         </div>
       </div>
-      {/* </div> */}
 
       {/* Completed state start
       Thank you! We've added your card details Continue */}
