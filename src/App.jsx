@@ -39,7 +39,7 @@ function App() {
         <div className="back-Page"></div>
       </div>
       <div className="right">
-        <div className="form">
+        <form className="form">
           <div className="input">
             <label htmlFor="name">CARD-HOLDER NAME</label>
             <input type="name" placeholder="e.g. Jane Appleseed" />
@@ -67,8 +67,8 @@ function App() {
             </div>
           </div>
 
-          <button>Confirm</button>
-        </div>
+          <button type="submit" >Confirm</button>
+        </form>
 
         <div class="attribution">
           Challenge by
