@@ -50,8 +50,8 @@
   top: 50%;
   left: 70%;
 }
-.card-Number h1 {
-  font-size: auto;
+.card-Number span {
+  font-size: 30px;
   width: 100%;
   /* border: 1px solid red; */
   color: hsl(0, 0%, 100%);

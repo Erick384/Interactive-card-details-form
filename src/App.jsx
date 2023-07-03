@@ -54,7 +54,7 @@ function App() {
             </svg>
           </div>
           <div className="card-Number">
-            <h1>0000  0000  0000  0000</h1>
+            <span>0000  0000  0000  0000</span>
           </div>
           <div className="card-Btm">
             <span>Jane Appleseed</span>
